@@ -79,3 +79,7 @@ gem "bootstrap"
 gem "sassc-rails"
 gem 'jquery-rails'
 gem 'sassc'
+
+
+gem 'alphavantage'  
+gem 'httparty'
