@@ -80,6 +80,8 @@ gem "sassc-rails"
 gem 'jquery-rails'
 gem 'sassc'
 
-
+# alpha API
 gem 'alphavantage'  
 gem 'httparty'
+
+gem "font-awesome-rails"
