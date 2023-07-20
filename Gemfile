@@ -85,3 +85,4 @@ gem 'alphavantage'
 gem 'httparty'
 
 gem "font-awesome-rails"
+gem 'turbo-rails'
