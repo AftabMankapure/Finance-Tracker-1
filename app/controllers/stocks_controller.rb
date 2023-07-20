@@ -15,6 +15,7 @@ class StocksController < ApplicationController
           redirect_to my_portfolio_path
         end
       end
+      # NoMethodError in StocksController#search
 
     # def search
     #   if params[:stock].present?
