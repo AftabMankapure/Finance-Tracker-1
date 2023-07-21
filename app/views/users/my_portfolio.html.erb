@@ -17,12 +17,10 @@
   <% end %>
 </div>
 
-<%# <div id="results">
 
-</div> %>
+  <%= render 'users/result' %>
 
-<%= render 'users/result'%>
+<%# <% if !@tracked_stocks.empty? %> 
+  <%# <%= render 'stocks/list'    %> 
 
-<% if !@tracked_stocks.empty? %>
-  <%= render 'stocks/list'%>
-<% end %>
+<%# <% end %> 
