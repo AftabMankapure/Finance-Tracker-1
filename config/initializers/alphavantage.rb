@@ -1,5 +1,5 @@
 require 'alphavantage'
  
 Alphavantage.configure do |config|
-  config.api_key = 'H6EW4XFU9MV5FMAZ'
+  config.api_key = 'Rails.application.credentials.alpha[:key_id]'
 end
