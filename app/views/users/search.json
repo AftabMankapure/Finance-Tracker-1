@@ -1,0 +1,3 @@
+# app/views/users/search.json.jbuilder
+json.message flash.now[:alert]
+json.friend @friend

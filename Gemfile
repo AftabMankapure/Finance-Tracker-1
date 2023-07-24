@@ -86,3 +86,5 @@ gem 'httparty'
 
 gem "font-awesome-rails"
 gem 'turbo-rails'
+
+gem "responders"

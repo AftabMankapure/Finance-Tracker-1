@@ -29,5 +29,14 @@ class User < ApplicationRecord
       return  "#{first_name} #{last_name}" if first_name || last_name
       "Anonymous"
     end
+
+    def self.search_by_name_or_email(query)
+      if query
+        where("name LIKE ? OR email LIKE ?", "%#{query}%", "%#{query}%")
+      else
+        none
+      end
+    end
+  
 end
 
